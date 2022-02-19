@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = ChuckTheme.dark();
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Chuck Jokes',
       theme: theme,
       home: const Home(),
