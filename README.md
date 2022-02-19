@@ -1,16 +1,46 @@
-# chuck
+# Chuck Jokes
 
-A new Flutter project.
+The application for interacting with [Chuck Norris Jokes Api](https://api.chucknorris.io)
 
-## Getting Started
+<img src="./media/preview.png" alt="Preview"/>
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+All Basic and Advanced requirements are satisfied:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- One screen with content
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Categories support
+
+- Joke retrieveing and displaying support (random or with category selected)
+
+- Joke search support
+
+- About dialog with personal information
+
+- Support for opening a joke in the browser
+
+- Using the image
+
+- Support for both light and dark themes
+
+## Packages
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: 2.2.0
+  dio: ^4.0.0
+  json_annotation: ^4.0.1
+  logger:
+  url_launcher:
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^4.1.3
+  build_runner: ^2.0.4
+  flutter_lints: ^1.0.0
+```
